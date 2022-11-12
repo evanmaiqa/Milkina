@@ -3,6 +3,40 @@ package Tasks;
 import java.util.Scanner;
 
 public class Operators {
+    public static void fiveNumbers() {
+        char ch = 'h';
+        for (int i = 0; i < 5; i++) {
+            System.out.print(ch);
+            ch++;
+        }
+    }
+    public static void tenLines() {
+        int i = 1;
+        do {
+            System.out.println(String.format("Task%d", i));
+            i++;
+        }
+        while (i <= 10);
+    }
+    public static void printNumbers() {
+        int i = 0;
+        do {
+            if (i % 5 == 0) {
+                System.out.println(i);
+            }
+            i++;
+        }
+        while (i <= 100);
+    }
+
+    public static void printTenLines() {
+        int i = 0;
+        while (i < 10) {
+            i++;
+            System.out.println(String.format("Task%d", i));
+
+        }
+    }
 
     public static void numberFrom0to10() {
         int num = isInteger();

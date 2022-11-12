@@ -1,6 +1,8 @@
 public class IntegerToBinary {
     /**
      * https://www.youtube.com/watch?v=fA7Mnn7uIJE&list=PLN_SYR3PfTtkj8BQXwYR74m4BL5UxSBF0&index=39
+     *
+     * https://www.youtube.com/watch?v=JMK7vm6ango
      */
     public static void main(String[] args) {
         int a = 3;
