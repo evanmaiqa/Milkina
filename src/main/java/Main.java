@@ -12,10 +12,9 @@ public class Main {
 
         Operators.fiveNumbers();
 
-        System.out.println();
+        int num = 33;
 
-        OddEven.oddEven(1);
-        OddEven.oddEven(2);
+        System.out.println((byte) num & 1);
 
     }
 

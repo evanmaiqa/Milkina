@@ -8,5 +8,10 @@ public class workWithArrays {
         System.out.println(Arrays.deepToString(arr2));
         Arrays.sort(arr);
         System.out.println("Sort array " + Arrays.toString(arr));
+
+        System.out.println("--------");
+
+        int[] arr5 = new int[13];
+        System.out.println(arr5[0]);
     }
 }
