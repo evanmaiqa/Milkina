@@ -17,5 +17,7 @@ public class Car {
         String[] FloatingPointLiterals = new String[] {"float", "double"};
         String[] Character = new String[] {"char"};
 
+        DemoConstructor demoConstructor = new DemoConstructor();
+
     }
 }

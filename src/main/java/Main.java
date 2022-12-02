@@ -1,7 +1,5 @@
 import Tasks.OddEven;
 import Tasks.Operators;
-import org.junit.Assert;
-import org.junit.Test;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +11,7 @@ public class Main {
         Operators.fiveNumbers();
 
         int num = 33;
-
+        System.out.println("\n 1 is odd \n");
         System.out.println((byte) num & 1);
 
     }
